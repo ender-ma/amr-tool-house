@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run AMR Tool House",
+        "type": "debugpy", // Use "python" for Python 2.x
+        "request": "launch",
+        "program": "${workspaceFolder}/main.py",
+        "console": "integratedTerminal",
+        "env": { "PYTHONUNBUFFERED": "1" }
+      }
+    ]
+  }
+  

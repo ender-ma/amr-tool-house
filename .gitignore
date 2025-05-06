@@ -1,0 +1,14 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore build artifacts (e.g. from PyInstaller)
+build/
+dist/
+*.spec
+
+# Ignore local SQLite DB (optional, if you don’t want to upload it)
+db/app.db
